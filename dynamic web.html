@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Dynamic date & time</title>
+</head>
+<body>
+<button id="mybutton">Click me to get Date&Time</button>
+<p id="mydate"><br><br><hr></p>
+<p id="demo1">This ia a miniproject to get dynamic date & time</p>
+<p id="demo2"><i>INDIAN STANDARD TIME</i></p>
+<img src = "dynamic images/d1.jpg"/>
+</body>
+<script>
+document.getElementById("demo1").innerHTML="This ia a miniproject to get dynamic date & time"
+document.getElementById("demo2").innerHTML="INDIAN STANDARD TIME"
+document.getElementById("mybutton").onclick=displaydate;
+function displaydate()
+{
+document.getElementById("mydate").innerHTML=Date();
+}
+</script>
+
+</html>
